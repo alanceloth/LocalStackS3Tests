@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "localstacks3tests"
+version = "0.1.0"
+description = ""
+authors = ["Alan Lanceloth <alan.lanceloth@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+boto3 = "^1.34.144"
+faker = "^26.0.0"
+numpy = "^2.0.0"
+tqdm = "^4.66.4"
+polars = "^1.1.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

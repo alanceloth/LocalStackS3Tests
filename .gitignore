@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#CSV and Parquet
+*.csv
+*.parquet
+
 # Distribution / packaging
 .Python
 build/
