@@ -1,0 +1,9 @@
+$ poetry run python app/source/create_data.py
+
+app/source/functions/data_generate_polars.py terminou em 1014.17 segundos
+Saída:
+Tempo total com Polars: 1010.06 segundos
+
+app/source/functions/data_generate_pandas.py terminou em 1060.52 segundos
+Saída:
+Tempo total com Pandas: 1053.93 segundos
